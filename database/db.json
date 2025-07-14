@@ -1,0 +1,57 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "admin@xxx.com",
+      "password": "U2FsdGVkX18ALA69eNCYxkUZvBiHf/prISzk2uLpNc8=",
+      "name": "Admin",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "email": "user@xxx.com",
+      "password": "U2FsdGVkX18cpWjFjI+oXbtWGk/af2CW0vqkuLBp95k=",
+      "name": "Normal User",
+      "role": "user"
+    },
+    {
+      "email": "maria@gmail.com",
+      "password": "U2FsdGVkX18ZuJcpzUgTG3+viakIZwJd9ssbgh9HaXs=",
+      "name": "Maria",
+      "role": "user",
+      "id": 3
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "eventName": "Marketing en Redes Sociales",
+      "description": "Estrategias para aumentar tu presencia en Instagram y Facebook.",
+      "category": "Negocios",
+      "capacity": 25
+    },
+    {
+      "id": 2,
+      "eventName": "Introducción a JavaScript",
+      "description": "Conceptos fundamentales para empezar a programar.",
+      "category": "Programación",
+      "capacity": 30
+    }
+  ],
+  "registrations": [
+    {
+      "eventId": 1,
+      "userEmail": "maria@gmail.com",
+      "userName": "Maria",
+      "registeredAt": "2025-07-14T05:43:59.643Z",
+      "id": 1
+    },
+    {
+      "eventId": 2,
+      "userEmail": "maria@gmail.com",
+      "userName": "Maria",
+      "registeredAt": "2025-07-14T05:47:27.678Z",
+      "id": 2
+    }
+  ]
+}

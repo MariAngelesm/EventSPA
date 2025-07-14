@@ -1,0 +1,31 @@
+/* Ensures that the body occupies the full height of the window */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Main style for the viewport */
+  #app {
+    min-height: calc(100vh - 120px); /* Adjusts according to header + footer */
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #212529; /* Bootstrap dark */
+    color: #f8f9fa; /* Bootstrap light */
+    padding: 1rem 0;
+    text-align: center;
+  }
+  
+  footer a {
+    color: #ffc107; /* Bootstrap warning */
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 0.5rem;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
