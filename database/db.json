@@ -25,16 +25,16 @@
   "events": [
     {
       "id": 1,
-      "eventName": "Marketing en Redes Sociales",
-      "description": "Estrategias para aumentar tu presencia en Instagram y Facebook.",
-      "category": "Negocios",
+      "eventName": "Selling strategies",
+      "description": "Strategies to increase your presence on Instagram and Facebook.",
+      "category": "Business",
       "capacity": 25
     },
     {
       "id": 2,
-      "eventName": "Introducción a JavaScript",
-      "description": "Conceptos fundamentales para empezar a programar.",
-      "category": "Programación",
+      "eventName": "Introduction to JavaScript",
+      "description": "Fundamental concepts to start programming.",
+      "category": "Programming",
       "capacity": 30
     }
   ],

@@ -7,7 +7,7 @@ export default function setupApiUi() {
   buttons.forEach($btn => {
     $btn.addEventListener("click", async () => {
       const eventId = Number($btn.dataset.id);
-      const auth = JSON.parse(sessionStorage.getItem("auth_token"));
+      const auth = JSON.parse(localStorage.getItem("auth_token"));
 
       const registration = {
         courseId,

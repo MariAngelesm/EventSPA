@@ -1,7 +1,7 @@
 import { api } from "../js/api.js";
 
 export default async function ApiUi() {
-  const auth = JSON.parse(sessionStorage.getItem("auth_token"));
+  const auth = JSON.parse(localStorage.getItem("auth_token"));
   if (!auth) return `<p class="text-danger">Unauthorized access.</p>`;
 
   const { role, name } = auth;
